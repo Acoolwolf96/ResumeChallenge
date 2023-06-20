@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>My Resume</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/a2d10c9e05.js" crossorigin="anonymous"></script>
+
+
+
+         <!-- Favicons
+	    ================================================== -->
+	    <link rel="shortcut icon" href="/images/icon.png" >
+
+
+
+
+
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fas fa-times" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fas fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>System Administrator</p>
+                    <h1>Hi, I'm Nelson</h1>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!---------------About---------------- ------->
+
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/about.jpg">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>
+                            Hello, I'm Nelson, a hardworking and passionate individual aspiring to become a Cloud Engineer. 
+                            I am actively building my expertise through the Cloud Resume Challenge and 
+                            I'm eager to contribute my organizational skills and knowledge to achieve results,
+                            with strong interpersonal skills, excellent time management, and problem-solving abilities, 
+                            I am prepared for a full-time position that offers professional challenges in the cloud industry.
+                        </p>
+                        
+                        
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Customer Service</span><br></li>
+                                <li><span>Technical Support</span><br></li>
+                                <li><span>Windows Server</span></li>
+                                <li><span>Linux Environment</span></li>
+                                <li><span>Java</span></li>
+                                <li><span>Python</span></li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>Technical Support</span><br>Served as primary point of contact for support relating to
+                                    owned solutions and products.<br>Provided guidance on installing and integrating new hardware
+                                    components and software to remote clients.<br>Responded to support requests from end users and patiently
+                                    walked individuals through basic troubleshooting tasks.</li>
+                                <li><span>Cloud</span><br>Setup and built windows servers, managed Domains, Active Directory
+                                    and Group policies.<br>Completed the cloud resume challenge, Hosted my resume as a
+                                    static website<br>Created and hosted a WordPress website</li>
+                                <li><span>Automation</span><br>Configuring a Mini Network and Scripting for remote systems<br>Creation, Deletion of Users and Account</li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li>Hämeenlinna University Of Applied Science<br>BArts Computer Application<br>Finland</li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- -----------Services---------------- ------->
+        <div id="services">
+            <div class="services">
+                <div class="container">
+                    <h1 class="sub-title">My Services</h1>
+                    <div class="service-list">
+                        <div>
+                            <i class="fa-solid fa-gears"></i>
+                            <h2>System Administration</h2>
+                            <p></p>
+                        </div>
+                        <div>
+                            <i class="fa-sharp fa-solid fa-ticket"></i>
+                            <h2>IT Support</h2>
+                            <p></p>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-user-secret"></i>
+                            <h2>Web Scrapping</h2>
+                            <p></p>
+                        </div>
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- -----------Portfolio---------------- ------->
+        <div id="portfolio">
+            <div class="portfolio">
+                <div class="container">
+                    <h1 class="sub-title">My Work</h1>
+                    <div class="work-list">
+                        <div class="work">
+                            <img src="images/work-1.png">
+                            <div class="layer">
+                                <h3>CLoud Resume Challenge</h3>
+                                <p>I built this page and or website as part of the Cloud Resume Challenge</p>
+                                <a href="https://github.com/Acoolwolf96/ResumeChallenge.git"><i class="fa-solid fa-link"></i></a>
+                            </div>
+                        </div>
+                        <div class="work">
+                            <img src="images/work-2.png">
+                            <div class="layer">
+                                <h3>Social Media</h3>
+                                <p></p>
+                                <a href="error.html"><i class="fa-solid fa-link"></i></a>
+                            </div>
+                        </div>
+                        <div class="work">
+                            <img src="images/work-3.png">
+                            <div class="layer">
+                                <h3>Social Media</h3>
+                                <p></p>
+                                <a href="error.html"><i class="fa-solid fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#" class="btn">See more</a>
+                </div>
+            </div>
+        </div>    
+
+        <!-- -----------Contact---------------- ------->
+
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1>Contact Me</h1>
+                        
+                        <div class="social-icons">
+                            <a href="https://www.linkedin.com/in/nelson-njoku-3a5ba114a/"><i class="fa fa-linkedin"></i></a>
+                            <a href="https://github.com/Acoolwolf96/ResumeCV.git"><i class="fa fa-github"></i></a>
+                            <a href="mailto:freelancerproject25@gmail.com"><i class="fa fa-envelope"></i></a>
+                        </div>
+                        <a href="images/CV Resume.pdf" download class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p><i class="fa-regular fa-eye"></i><span id="counter"></span></p>
+                <p>Copyright © Kevin.</p>
+                <div class="date">
+                    <h6><span id="now"></span></h6>
+                    
+                </div>
+            </div>
+            
+        </div>
+
+
+
+        <script>
+
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+        </script>
+
+        <script>
+            var sidemenu = document.getElementById("sidemenu");
+
+            function openmenu(){
+                sidemenu.style.right = "0";
+            }
+            function closemenu(){
+                sidemenu.style.right = "-200px";
+            }
+        </script>
+
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbwOqm8R_J35u4lyFuUpN10zHG7gkCyaJrbSsNJOQCIsW-wqVxgSncTVi8m8r_j-50Kz/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg = document.getElementById("msg")
+  
+            form.addEventListener('submit', e => {
+                e.preventDefault()
+                fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                    .then(respone => {
+                        msg.innerHTML = "Message sent successfully"
+                        setTimeout(function(){
+                            msg.innerHTML = ""
+                        },5000)
+                        form.reset()
+                    })
+                    .catch(error => console.error('Error!', error.message))     
+            })
+        </script>
+
+        <script>
+            let nowVar = new Date();
+
+            let time = document.getElementById("now")
+
+            time.innerHTML = nowVar
+        </script>
+
+        <script>
+            window.addEventListener('DOMContentLoaded', (event)=>{
+                getVisitCount();
+            })
+
+            const functionApi = '';
+
+            const getVisitCount = () => {
+                let count = 50;
+                fetch(functionApi).then(response => {
+                    return response.json()
+                }).then(response =>{
+                    console.log("Function API.");
+                    count = response.count;
+                    document.getElementById("counter").innerText = count;
+                }).catch(function(error){
+                    console.log(error)
+                });
+                return count;
+                
+            }
+        </script>
+
+
+
+
+    </body>
+</html>
